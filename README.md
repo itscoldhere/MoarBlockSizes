@@ -2,7 +2,7 @@
 ## itscoldhere &amp; joglacraft's Moar Block datapack
 Moah blocks is a simple datapack that allows you to easily make almost any block the size of any amount of snow layers.
 ## How to install
-- Dowload the lastest version of the datapack on the Releases page
+- Dowload the lastest version of the datapack on the [Releases](https://github.com/itscoldhere/MoarBlocks/releases/tag/v1.0) page
 - Extract the zip file
 - Open your .minecraft folder
 - Open your datapacks folder inside the world folder you want the datapack in.
@@ -27,4 +27,3 @@ Moah blocks is a simple datapack that allows you to easily make almost any block
 - kill - Removes all blocks created by Moah Blocks in a 3x3 area.
 - main - Prints the datapack's text based menu in case you don't want to type commands.
 - modify - Modifies the height Moah Block's block you are standing on.
-- 
