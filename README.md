@@ -1,6 +1,6 @@
-# Moah Blocks
-## itscoldhere &amp; joglacraft's Moar Block datapack
-Moah blocks is a simple datapack that allows you to easily make almost any block the size of any amount of snow layers.
+# Moar Block Sizes
+## itscoldhere &amp; joglacraft's Moar Block Sizes datapack
+Moar block Sizes is a simple datapack that allows you to easily make almost any block the size of any amount of snow layers.
 ## How to install
 - Dowload the lastest version of the datapack on the [Releases](https://github.com/itscoldhere/MoarBlocks/releases/tag/v1.0) page
 - Extract the zip file
