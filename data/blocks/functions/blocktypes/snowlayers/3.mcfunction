@@ -1,3 +1,4 @@
+function blocks:makestuff/idk
 execute as @e[type=minecraft:block_display,distance=..1, sort=nearest,limit=1] at @s run tp @s ~.005 ~ ~.005
 execute as @e[type=minecraft:block_display,distance=..1, sort=nearest,limit=1] at @s align xyz run tp @s ~-.005 ~ ~-.005
 data merge entity @e[type=minecraft:block_display,limit=1,distance=..1] {transformation:{scale:[1.01f,.3751f,1.01f]}}

@@ -1,7 +1,5 @@
 tellraw @s [{"text":"\nHelp menu\n\n","color":"#ffaaaa"},{"text":"This datapack allows you to make almost any block the height of a snow layer.","color":"#aaffff"}]
-
 tellraw @s [{"text":"\nCommands\n\n","color":"#ffccaa"},{"text":"Use ","color":"#aaffff"},{"text":"/trigger","color":"#aaaaff"},{"text":" and then ","color":"#aaffff"},{"text":"one","color":"#aaaaff"},{"text":" of the following ","color":"#aaffff"},{"text":"arguments","color":"#aaaaff"},{"text":".\n","color":"#aaffff"}]
-
 tellraw @s [{"text": "moahblock.create","color":"#88ff88"},{"text":" - ","color":"#aaaaaa"},{"text": "Create","color": "#aaaaff"},{"text": " a new block display or if you are already over an existing one, ","color": "#aaffff"},{"text": "edit","color": "#aaaaff"},{"text": " its current texture.","color": "#aaffff"}]
 tellraw @s [{"text": "moahblock.credits","color":"#88ff88"},{"text":" - ","color":"#aaaaaa"},{"text":"Shows the ","color":"#aaffff"},{"text":"credits","color": "#aaaaff"},{"text": " and ","color": "#aaffff"},{"text":"datapack version","color": "#aaaaff"},{"text":".","color": "#aaffff"}]
 tellraw @s [{"text": "moahblock.help","color":"#88ff88"},{"text":" - ","color":"#aaaaaa"},{"text": "Pulls out the ","color": "#aaffff"},{"text": "help menu","color": "#aaaaff"},{"text": ".","color": "#aaffff"}]

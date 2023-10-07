@@ -1,1 +1,1 @@
-execute at @p run kill @e[type=minecraft:block_display, distance=..3]
+execute as @a at @s run kill @e[type=minecraft:block_display, distance=..1]

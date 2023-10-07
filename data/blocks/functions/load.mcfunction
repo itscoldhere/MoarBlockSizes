@@ -1,6 +1,7 @@
-scoreboard objectives add moahblock.main trigger
-scoreboard objectives add moahblock.kill trigger
-scoreboard objectives add moahblock.create trigger
-scoreboard objectives add moahblock.modify trigger
-scoreboard objectives add moahblock.help trigger
-scoreboard objectives add moahblock.credits trigger
+scoreboard objectives add moarblocks.main trigger
+scoreboard objectives add moarblocks.kill trigger
+scoreboard objectives add moarblocks.create trigger
+scoreboard objectives add moarblocks.modify trigger
+scoreboard objectives add moarblocks.credits trigger
+scoreboard objectives add moarblocks.help trigger
+
