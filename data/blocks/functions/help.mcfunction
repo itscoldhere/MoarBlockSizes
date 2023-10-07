@@ -9,6 +9,6 @@ tellraw @s [{"text": "moahblock.kill","color":"#88ff88"},{"text":" - ","color":"
 tellraw @s [{"text": "moahblock.main","color":"#88ff88"},{"text":" - ","color":"#aaaaaa"},{"text": "Pulls out the","color": "#aaffff"},{"text":" main menu ","color": "#aaaaff"},{"text": "of the datapack. Anything done there can be done via commands and vice-versa.","color": "#aaffff"}]
 tellraw @s [{"text": "moahblock.modify","color":"#88ff88"},{"text":" - ","color":"#aaaaaa"},{"text": "Changes the height of the current block if compatible.","color": "#aaffff"},{"text":" (?) NOTE: Before sending this command, use the next set of parameters (set) and set it to a number ranging 1 and 8.","color": "#ffaaaa"}]
 
-tellraw @s [{"text": "\nAdditional information\n","color": "#ffaaff"}]
-tellraw @s [{"text":"N/A.","color": "#aaaaaa"}]
+#tellraw @s [{"text": "\nAdditional information\n","color": "#ffaaff"}]
+#tellraw @s [{"text":"N/A.","color": "#aaaaaa"}]
 
