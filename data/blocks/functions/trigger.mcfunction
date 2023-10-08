@@ -20,16 +20,16 @@ execute at @a[scores={moarblocks.credits=1..}] as @a[scores={moarblocks.credits=
 scoreboard players reset @a[scores={moarblocks.credits=1..}] moarblocks.credits
 
 # Modify Block
-scoreboard players enable @a moarblocks.modify
-execute at @a[scores={moarblocks.modify=1}] as @a[scores={moarblocks.modify=1}] run function blocks:blocktypes/snowlayers/1
-execute at @a[scores={moarblocks.modify=2}] as @a[scores={moarblocks.modify=2}] run function blocks:blocktypes/snowlayers/2
-execute at @a[scores={moarblocks.modify=3}] as @a[scores={moarblocks.modify=3}] run function blocks:blocktypes/snowlayers/3
-execute at @a[scores={moarblocks.modify=4}] as @a[scores={moarblocks.modify=4}] run function blocks:blocktypes/snowlayers/4slab
-execute at @a[scores={moarblocks.modify=5}] as @a[scores={moarblocks.modify=5}] run function blocks:blocktypes/snowlayers/5
-execute at @a[scores={moarblocks.modify=6}] as @a[scores={moarblocks.modify=6}] run function blocks:blocktypes/snowlayers/6
-execute at @a[scores={moarblocks.modify=7}] as @a[scores={moarblocks.modify=7}] run function blocks:blocktypes/snowlayers/7
-execute at @a[scores={moarblocks.modify=8}] as @a[scores={moarblocks.modify=8}] run function blocks:blocktypes/snowlayers/8block
-scoreboard players reset @a[scores={moarblocks.modify=1..}] moarblocks.modify
+scoreboard players enable @a moarblocks.layer
+execute at @a[scores={moarblocks.layer=1}] as @a[scores={moarblocks.layer=1}] run function blocks:blocktypes/snowlayers/1
+execute at @a[scores={moarblocks.layer=2}] as @a[scores={moarblocks.layer=2}] run function blocks:blocktypes/snowlayers/2
+execute at @a[scores={moarblocks.layer=3}] as @a[scores={moarblocks.layer=3}] run function blocks:blocktypes/snowlayers/3
+execute at @a[scores={moarblocks.layer=4}] as @a[scores={moarblocks.layer=4}] run function blocks:blocktypes/snowlayers/4slab
+execute at @a[scores={moarblocks.layer=5}] as @a[scores={moarblocks.layer=5}] run function blocks:blocktypes/snowlayers/5
+execute at @a[scores={moarblocks.layer=6}] as @a[scores={moarblocks.layer=6}] run function blocks:blocktypes/snowlayers/6
+execute at @a[scores={moarblocks.layer=7}] as @a[scores={moarblocks.layer=7}] run function blocks:blocktypes/snowlayers/7
+execute at @a[scores={moarblocks.layer=8}] as @a[scores={moarblocks.layer=8}] run function blocks:blocktypes/snowlayers/8block
+scoreboard players reset @a[scores={moarblocks.layer=1..}] moarblocks.layer
 # Snow creation
 execute at @e[type=block_display,tag=SnowLayer1] align xyz unless block ~ ~ ~ snow run setblock ~1 ~ ~1 snow[layers=1]
 execute at @e[type=block_display,tag=SnowLayer2] align xyz unless block ~ ~ ~ snow run setblock ~1 ~ ~1 snow[layers=2]
