@@ -8,7 +8,7 @@ Moar block Sizes is a simple datapack that allows you to easily make almost any 
 - Open your datapacks folder inside the world folder you want the datapack in.
 - Move the file you just extracted inside that folder.
 - In-game, execute `/reload`.
-**Note:** Unlike other datapacks, no feedback of the datapack being active will be given. Use the `/trigger` command and look for any completion that reads `moahblocks.`.
+**Note:** Unlike other datapacks, no feedback of the datapack being active will be given (such as a sound effect or text in chat). Use the `/trigger` command and look for any completion that reads `moarblocks`.
 ## Usage manual
 - Type `trigger moarblocks.main` to print a text-based menu to use the datapack.
   - Use it in case you don't want to deal with commands.
