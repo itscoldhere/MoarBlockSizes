@@ -1,0 +1,1 @@
+execute at @p align xyz run summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:stone"}} 
